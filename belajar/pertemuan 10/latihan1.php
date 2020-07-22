@@ -6,9 +6,11 @@
   $result = mysqli_query ($conf,"SELECT * FROM MAHASISWA");
 
   //ubah data kedalam array
- var_dump($result);
-
+$hasil = mysqli_fetch_array ($result);
+var_dump ($hasil);
   //tampung ke variable
+
+  
 
 ?>
 
